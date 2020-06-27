@@ -1,6 +1,4 @@
-# neuron-template
-
-## How to use
+# How to create your own neuron site
 
 - Go to <https://github.com/srid/neuron-template> and click "Use this template" button
   - Select "Include all branches" (necessary to get the site to publish)
