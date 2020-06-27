@@ -13,4 +13,11 @@ jobs:
         name: srid
     # This builds neuron, as well as run tests
     - run: nix-env -if https://github.com/srid/neuron/archive/master.tar.gz 
+    - run: neuron --version
     - run: neuron -d . rib
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.5.6
+      with:
+          BRANCH: gh-pages
+          FOLDER: .neuron/output
+
