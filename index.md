@@ -5,7 +5,7 @@ This is a template zettelkasten for [neuron](https://neuron.zettel.page/). It su
 ## How to use
 
 - Go to <https://github.com/srid/neuron-template> and click "Use this template" button
-- In your new repository, edit the `neuron.dhall` and change someting (i.e., the title)
+- In your new repository, edit the `neuron.dhall` file and change something (eg. the title)
 - WIP: ??? 
 
 GitHub will now build the site, which will become available at `https://<yourgithubusername>.github.io/<yournewrepo>/`.
