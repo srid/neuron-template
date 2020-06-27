@@ -10,6 +10,10 @@ This is a template zettelkasten for [neuron](https://neuron.zettel.page/). It su
 
 GitHub will now build the site, which will become available at `https://<yourgithubusername>.github.io/<yournewrepo>/`.
 
+## How to edit
+
+Assuming you have changed the `editUrl` in `neuron.dhall`, you can simply click the "edit" icon on the publish site to edit any note. To create a *new* note, use the GitHub interface. On every change, your site should eventually rebuild.
+
 ## FAQ
 
 Why does the site not update instantly?
