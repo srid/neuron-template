@@ -1,7 +1,7 @@
 # Neuron Template
 
-This is a template zettelkasten for [neuron](https://neuron.zettel.page/). It supports deploying to [GitHub Pages](https://pages.github.com/) on every `git push` to the `master` branch in GitHub.
+You are viewing the [neuron](https://neuron.zettel.page/)-published site for neuron-template. It is deployed as [GitHub Pages](https://pages.github.com/) on every change you make to the associated Git repository automatically.
 
-See <README>
+For instructions, see <README>
 
-Then perhaps checkout <faq>.
+Then checkout <faq>.
