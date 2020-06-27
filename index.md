@@ -1,8 +1,8 @@
 # Example Zettelkasten
 
-This is a template zettelkasten for [neuron](https://neuron.zettel.page/). It supports deploying to GitHub Pages on every git push to `master` branch in GitHub.
+This is a template zettelkasten for [neuron](https://neuron.zettel.page/). It supports deploying to [GitHub Pages](https://pages.github.com/) on every `git push` to the `master` branch in GitHub.
 
-## How to fork
+## How to use
 
 - Go to <https://github.com/srid/neuron-template> and click "Use this template" button
 - In your new repository, edit the `neuron.dhall` and change someting (i.e., the title)
