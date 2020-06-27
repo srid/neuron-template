@@ -1,0 +1,16 @@
+name: "Publish"
+on:
+  pull_request:
+  push:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: cachix/install-nix-action@v9
+    - uses: cachix/cachix-action@v6
+      with:
+        name: srid
+    # This builds neuron, as well as run tests
+    - run: nix-env -if https://github.com/srid/neuron/archive/master.tar.gz 
+    - run: neuron -d . rib
