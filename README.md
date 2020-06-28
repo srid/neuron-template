@@ -1,4 +1,4 @@
-# How to create your own [neuron](https://neuron.zettel.page/) site
+# How to publish your own [neuron](https://neuron.zettel.page/) site
 
 
 - Go to <https://github.com/srid/neuron-template> and click the "*Use this template*" button
