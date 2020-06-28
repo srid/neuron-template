@@ -11,10 +11,10 @@ For more information, see the [GitHub Pages guide](https://help.github.com/en/gi
 
 ## Set your site metadata
 
-- In your new repository, edit the `neuron.dhall` file to reflect your new site.
+- In your new repository, edit the `neuron.dhall` file and update the neuron configuration to suitable values.
 
 ## How to edit and add notes
 
-Assuming you have changed the `editUrl` in `neuron.dhall` (see above), you can simply click the "edit" icon on the publish site to edit any note. To create a *new* note, use the GitHub interface. On every change, your site should eventually rebuild.
+Assuming you have changed the `editUrl` configuration in `neuron.dhall` (see the above section), you can simply click the "edit" icon on the published site to edit any note (see [Editing files in your repository](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) and [Creating new files](https://help.github.com/en/github/managing-files-in-a-repository/creating-new-files)). On every change, your site should eventually rebuild.
 
 For other ways to edit your notes, see the [neuron guide](https://neuron.zettel.page/2011406.html).
