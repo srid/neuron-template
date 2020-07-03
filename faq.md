@@ -1,3 +1,7 @@
+---
+tags: [other]
+---
+
 # FAQ
 
 Why does the site not update *instantly*?
