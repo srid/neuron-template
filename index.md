@@ -8,6 +8,6 @@ You are viewing the [neuron](https://neuron.zettel.page/)-published site for [ne
 
 Get started by reading <README>.
 
-Other pages on this zettelkasten (this demonstrateds how to use tag queries):
+Other pages on this zettelkasten (this demonstrates how to use tag queries):
 
 <z:zettels?tag=other>
