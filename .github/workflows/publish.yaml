@@ -5,25 +5,23 @@ on:
     branches:
       - master
 jobs:
-  build:
+  neuron:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: cachix/install-nix-action@v10
-    - uses: cachix/cachix-action@v6
-      with:
-        name: srid
-    # This builds neuron, as well as run tests
-    - name: Install neuron 
-      run: nix-env -j 4 -if https://github.com/srid/neuron/archive/master.tar.gz 
+    - name: Download neuron
+      run: |
+        curl --silent https://api.github.com/repos/srid/neuron/actions/artifacts \
+          | jq 'first(.artifacts | .[] | select(.name == "neuron-bundle-linux") | .archive_download_url)' -r \
+          | xargs curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --silent -L -o neuron-bundle-linux.zip
+        unzip neuron-bundle-linux.zip
+        chmod +x neuron
     - name: Build neuron site 🔧
       run: |
-        neuron --version
-        neuron -d . rib
-    - name: Deploy to GitHub Pages 🚀
-      uses: JamesIves/github-pages-deploy-action@3.5.6
+        ./neuron --version
+        ./neuron -d $(pwd) rib
+    - name: Deploy to gh-pages 🚀
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: .neuron/output
-
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .neuron/output/
