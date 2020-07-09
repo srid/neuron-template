@@ -19,7 +19,7 @@ jobs:
     - name: Build neuron site 🔧
       run: |
         ./neuron --version
-        ./neuron -d $(pwd) rib
+        ./neuron -d $PWD rib
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
