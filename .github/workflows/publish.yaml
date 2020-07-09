@@ -16,9 +16,9 @@ jobs:
           | xargs curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --silent -L -o neuron-bundle-linux.zip
         unzip neuron-bundle-linux.zip
         chmod +x neuron
+        ./neuron --version  # This extracts the bundle; should take a while
     - name: Build neuron site 🔧
       run: |
-        ./neuron --version
         ./neuron -d $PWD rib
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
