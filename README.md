@@ -1,7 +1,7 @@
 # How to publish your own [neuron](https://neuron.zettel.page/) site
 
 - Go to <https://github.com/srid/neuron-template/generate>
-- Give your repository a name, say `mynotes`
+- Give your new repository a name, say `mynotes`
 - Select "*Include all branches*" ([necessary to get the site to publish](https://stackoverflow.com/a/47368231/55246))
 - Click "Create repository from template"
 
