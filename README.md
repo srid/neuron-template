@@ -9,7 +9,7 @@
 
 GitHub will now build the site, which will become available at `https://<yourgithubusername>.github.io/mynotes/`.
 
-For more information, see [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
+For more information, see [neuron documentation](https://neuron.zettel.page/) as well as the [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
 
 ## Set your site metadata
 
