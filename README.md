@@ -7,7 +7,7 @@
 
 GitHub will now build the site, which will become available at `https://<yourgithubusername>.github.io/mynotes/`.
 
-For more information (such as using your own domain name), see [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
+For more information, see [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
 
 ## Set your site metadata
 
