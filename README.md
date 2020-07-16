@@ -1,5 +1,7 @@
 # How to publish your own [neuron](https://neuron.zettel.page/) site
 
+[neuron](https://neuron.zettel.page/) is a Zettelkasten-based notes manager, and you can use this template repository to get started with [publishing](https://neuron.zettel.page/778816d3.html) your own neuron site that looks like [one of these](https://neuron.zettel.page/2013101.html).
+
 - Go to <https://github.com/srid/neuron-template/generate>
 - Give your new repository a name, say `mynotes`
 - Select "*Include all branches*" ([necessary to get the site to publish](https://stackoverflow.com/a/47368231/55246))
