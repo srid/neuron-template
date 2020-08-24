@@ -23,4 +23,4 @@ To understand how linking works, read [the neuron guide on Linking](https://neur
 
 For other ways to edit your notes (editors, web interface), see the [neuron guide](https://neuron.zettel.page/2011406.html).
 
-Questionsd? Checkout the [[faq]].
+Questions? Checkout the [[faq]].
