@@ -22,3 +22,5 @@ Assuming you have changed the `editUrl` configuration in `neuron.dhall` (see the
 To understand how linking works, read [the neuron guide on Linking](https://neuron.zettel.page/2011504.html).
 
 For other ways to edit your notes (editors, web interface), see the [neuron guide](https://neuron.zettel.page/2011406.html).
+
+Questionsd? Checkout the [[faq]].
