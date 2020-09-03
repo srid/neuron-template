@@ -12,3 +12,6 @@ What environment is used to build and deploy the site?
 
 Can I use my own domain name?
 : Yes, you can [set the CNAME in publish.yaml](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-cname).
+
+How can private repositories be published?
+: You will need a GitHub paid plan to publish private repositories. Public repositories on the other hand can be published in the GitHub free plan. [Cerveau](https://www.cerveau.app/)'s Premium Plan, when it is ready, will be able to publish public and private repositories.
