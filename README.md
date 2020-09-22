@@ -8,7 +8,7 @@
 - Click "Create repository from template"
   - Note: if you are on the free GitHub plan, your repository should be public for GitHub to publish it.
 
-GitHub will now build the site, which will become available at `https://<yourgithubusername>.github.io/mynotes/`.
+GitHub will now build the site and serve it at: `https://<yourgithubusername>.github.io/mynotes/`.
 
 For more information, see [neuron documentation](https://neuron.zettel.page/) as well as the [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
 
