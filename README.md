@@ -1,6 +1,6 @@
-# How to publish your own [neuron](https://neuron.zettel.page/) site
+# How to publish your own [neuron] site
 
-[neuron](https://neuron.zettel.page/) is a note-taking app optimized for publishing, and you can use this template repository to get started with [publishing](https://neuron.zettel.page/778816d3.html) your own neuron site that looks like [one of these](https://neuron.zettel.page/examples.html).
+[neuron] is a note-taking app optimized for publishing, and you can use this template repository to get started with [publishing](https://neuron.zettel.page/778816d3.html) your own neuron site that looks like [one of these][examples].
 
 - Go to <https://github.com/srid/neuron-template/generate>
 - Give your new repository a name, say `mynotes`
@@ -10,7 +10,7 @@
 
 GitHub will now build the site and serve it at: `https://<yourgithubusername>.github.io/mynotes/`.
 
-For more information, see [neuron documentation](https://neuron.zettel.page/) as well as the [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
+For more information, see [neuron documentation][neuron] as well as the [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
 
 ## Set your site metadata
 
@@ -20,8 +20,13 @@ For more information, see [neuron documentation](https://neuron.zettel.page/) as
 
 Assuming you have changed the `editUrl` configuration in `neuron.dhall` (see the above section), you can simply click the "edit" icon on the published site to edit any note (see [Editing files in your repository](https://help.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) and [Creating new files](https://help.github.com/en/github/managing-files-in-a-repository/creating-new-files)). On every change, your site should eventually rebuild.
 
-To understand how linking works, read [the neuron guide on Linking](https://neuron.zettel.page/2011504.html).
+To understand how linking works, read [the neuron guide on Linking][linking].
 
-For other ways to edit your notes (editors, web interface), see the [neuron guide](https://neuron.zettel.page/2011406.html). In particular, [Cerveau](https://www.cerveau.app/) is the easiest way to edit your notes on the go.
+For other ways to edit your notes (editors, web interface), see the [neuron guide][create]. In particular, [Cerveau](https://www.cerveau.app/) is the easiest way to edit your notes on the go.
 
 Questions? Checkout the [[faq]].
+
+[neuron]: https://neuron.zettel.page/
+[examples]: https://neuron.zettel.page/examples.html
+[linking]: https://neuron.zettel.page/linking.html
+[create]: https://neuron.zettel.page/create.html
