@@ -1,6 +1,6 @@
 # How to publish your own [neuron] site
 
-[neuron] is a note-taking app optimized for publishing, and you can use this template repository to get started with [publishing](https://neuron.zettel.page/778816d3.html) your own neuron site that looks like [one of these][examples].
+[neuron] is a note-taking app optimized for publishing. Use this template repository to get started with [publishing](https://neuron.zettel.page/778816d3.html) your own neuron site that looks like [one of these][examples].
 
 - Go to <https://github.com/srid/neuron-template/generate>
 - Give your new repository a name, say `mynotes`
