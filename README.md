@@ -24,7 +24,7 @@ To understand how linking works, read [the neuron guide on Linking][linking].
 
 For other ways to edit your notes (editors, web interface), see the [neuron guide][create]. In particular, [Cerveau](https://www.cerveau.app/) is the easiest way to edit your notes on the go.
 
-Questions? Checkout the [[faq]].
+Questions? Checkout the [[faq]]. To find who else is using this template *publicly on GitHub*, [see here](https://github.com/search?o=desc&q=filename%3Aneuron.dhall&s=indexed&type=Code).
 
 [neuron]: https://neuron.zettel.page/
 [examples]: https://neuron.zettel.page/examples.html
