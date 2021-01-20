@@ -30,3 +30,4 @@ Got questions? Checkout the [[faq]]. To find who else is using this template *pu
 [examples]: https://neuron.zettel.page/examples.html
 [linking]: https://neuron.zettel.page/linking.html
 [create]: https://neuron.zettel.page/create.html
+
