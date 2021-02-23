@@ -9,18 +9,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Download neuron
-      run: |
-        curl --silent https://api.github.com/repos/srid/neuron/actions/artifacts \
-          | jq 'first(.artifacts | .[] | select(.name == "neuron-bundle-linux") | .archive_download_url)' -r \
-          | xargs curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --silent -L -o neuron-bundle-linux.zip
-        unzip neuron-bundle-linux.zip
-        chmod +x neuron
-        ./neuron --version  # This extracts the bundle; should take a while
     - name: Build neuron site 🔧
       run: |
-        ./neuron -d $PWD gen
-        touch .neuron/output/.nojekyll
+        mkdir -p .neuron/output && touch .neuron/output/.nojekyll
+        docker run -v $PWD:/notes sridca/neuron neuron gen
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
