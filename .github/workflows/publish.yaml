@@ -12,7 +12,7 @@ jobs:
     - name: Build neuron site 🔧
       run: |
         mkdir -p .neuron/output && touch .neuron/output/.nojekyll
-        docker run -v $PWD:/notes sridca/neuron neuron gen
+        docker run -v $PWD:/notes sridca/neuron neuron gen --pretty-urls
     - name: Deploy to gh-pages 🚀
       uses: peaceiris/actions-gh-pages@v3
       with:
