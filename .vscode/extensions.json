@@ -22,9 +22,6 @@
 		// - Checkboxes
 		"bierner.markdown-checkbox",
 		// - Footnote
-		"houkanshan.vscode-markdown-footnote",
-		
-		// Language - spell checker
-		"streetsidesoftware.code-spell-checker"
+		"houkanshan.vscode-markdown-footnote"
 	]
 }
