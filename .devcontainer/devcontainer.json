@@ -8,7 +8,7 @@
 	
 	// Set *default* container specific settings.json values on container create. 
 	"settings": {
-		"terminal.integrated.shell.linux": "/bin/ash"
+		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
@@ -19,7 +19,7 @@
 	"forwardPorts": [8080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "neuron gen -ws 0.0.0.0:8080",
+	// "postCreateCommand": "neuron gen -ws 0.0.0.0:8080",
 
 	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
 	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
