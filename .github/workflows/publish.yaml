@@ -43,6 +43,8 @@ jobs:
   #     - name: Compile
   #       run: |
   #         neuron gen --pretty-urls
+  #         # Uncomment the line below to keep CNAME from deleting
+  #         #cp CNAME .neuron/output
   #     - name: Deploy to gh-pages 🚀
   #       uses: peaceiris/actions-gh-pages@v3
   #       with:
