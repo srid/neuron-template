@@ -10,6 +10,8 @@
 
 GitHub will now build the site and serve it at: `https://<yourgithubusername>.github.io/mynotes/`.
 
+*Note: if you come from macos, please checkout the commented lines in `.github/workflows/publish.yaml`.*
+
 For more information, see [neuron documentation][neuron] as well as the [GitHub Pages guide](https://help.github.com/en/github/working-with-github-pages).
 
 ## Set your site metadata

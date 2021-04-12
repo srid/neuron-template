@@ -5,7 +5,10 @@ on:
     branches:
       - master
 jobs:
-  neuron:
+  # By default, your notes are compiled using the docker (Linux). If your notes were written using a Macos platform
+  # and shows some special characters in the filenames (such as é,è, §), comment-out neuron-docker and uncomment neuron-macos
+  # Warning:
+  neuron-docker:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -18,3 +21,30 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: .neuron/output/
+  # neuron-macos:
+  #   runs-on: ${{ matrix.os }}
+  #   strategy:
+  #     matrix:
+  #       os: [macos-latest]
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - uses: cachix/install-nix-action@v12
+  #     # This also runs nix-build.
+  #     - uses: cachix/cachix-action@v8
+  #       with:
+  #         name: srid
+  #         signingKey: "${{ secrets.CACHIX_SIGNING_KEY }}"
+  #         # Only needed for private caches
+  #         authToken: "${{ secrets.CACHIX_AUTH_TOKEN }}"
+  #     # This downloads deps from Nix cache, builds neuron, as well as run tests
+  #     - name: Build 🔧
+  #       run: |
+  #         nix-env -if https://github.com/srid/neuron/archive/master.tar.gz
+  #     - name: Compile
+  #       run: |
+  #         neuron gen --pretty-urls
+  #     - name: Deploy to gh-pages 🚀
+  #       uses: peaceiris/actions-gh-pages@v3
+  #       with:
+  #         github_token: ${{ secrets.GITHUB_TOKEN }}
+  #         publish_dir: .neuron/output
