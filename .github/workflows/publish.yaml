@@ -7,7 +7,7 @@ on:
 jobs:
   # By default, your notes are compiled using the docker (Linux). If your notes were written using a Macos platform
   # and shows some special characters in the filenames (such as é,è, §), comment-out neuron-docker and uncomment neuron-macos
-  # Warning:
+  # Warning: compiling with neuron-macos is time expensive
   neuron-docker:
     runs-on: ubuntu-latest
     steps:
