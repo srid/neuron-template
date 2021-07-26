@@ -17,7 +17,7 @@ Can I use my own domain name?
 : Yes, you can [set the CNAME in publish.yaml][cname].
 
 How can private repositories be published?
-: You will need a GitHub paid plan to publish private repositories. Public repositories on the other hand can be published in the GitHub free plan. [Cerveau](https://www.cerveau.app/)'s Premium Plan, when it is ready, will be able to publish public and private repositories.
+: You will need a GitHub paid plan to publish private repositories. Public repositories on the other hand can be published in the GitHub free plan.
 
 [cname]: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-add-cname-file-cname
 [docker-tags]: https://hub.docker.com/r/sridca/neuron/tags?page=1&ordering=last_updated
